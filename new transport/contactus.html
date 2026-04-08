@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Mahindra</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="contactus.css">
+   <link rel="icon" type="png" href="mahindralogo.jpg">
+</head>
+<body>
+
+  <!-- Navbar -->
+ <header class="navbar">
+  <div class="logo">
+    <img src="mahindralogopng.png" alt="Logo">
+  </div>
+
+  <div class="menu-icon" onclick="openMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <nav class="nav-links" id="navLinks">
+    <span class="close-btn" onclick="closeMenu()">✖</span>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="services.html">Service Offered</a>
+    <a href="contactus.html">Contact Us</a>
+       <a href="trackerhome.html" class="track"><i class="fas fa-location-dot"></i> Track Your Goods</a>
+  </nav>
+</header>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h1>Contact Us</h1>
+    <p>Get in touch with us</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact-container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+
+      <p>
+        <i class="fas fa-map-marker-alt"></i>
+         <h5>Office:- shop no.1, near rambagh, tedi baghiya road, agra - 282006</h5>
+                <h5>Branch office:- shop no.2, near Kd it web solution, sector 26, dwarka, bharthal, delhi - 110077</h5>
+      </p>
+
+      <p>
+        <i class="fas fa-phone"></i>
+        <a href="tel:+919760157867">+91 9760157867</a>
+      </p>
+
+      <p>
+        <i class="fas fa-envelope"></i>
+         <a href="mailto:sales@mahindralogisticsgroup.in">sales@mahindralogisticsgroup.in</a>
+              <a href="mailto:info@mahindralogisticsgroup.in">info@mahindralogisticsgroup.in</a>
+               <a href="mailto:finance@mahindralogisticsgroup.in">finance@mahindralogisticsgroup.in</a>
+      </p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send Message</h2>
+
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Phone Number">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- JS for mobile menu -->
+  <script>
+    function openMenu() {
+      document.getElementById('navLinks').style.right = "0";
+    }
+
+    function closeMenu() {
+      document.getElementById('navLinks').style.right = "-250px";
+    }
+  </script>
+  <script>
+function openMenu() {
+  document.getElementById("navLinks").style.right = "0";
+}
+
+function closeMenu() {
+  document.getElementById("navLinks").style.right = "-250px";
+}
+</script>
+
+</body>
+
+
+<footer class="footer">
+    <div class="footer-content">
+
+        <div class="logo">
+    <img src="mahindralogopng.png" alt="ICM Logo">
+</div>
+
+        <div class="footer-links">
+            <h3>Know More</h3>
+            <span class="line"></span>
+
+            <a href="aboutus.html">About us</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="services.html">Services</a>
+            <a href="tracking">Track your goods</a>
+        </div>
+
+         <div class="footer-contact">
+            <h3>Reach Us On</h3>
+            <span class="line"></span>
+
+            <a href="tel:+91 8755255826">+91 9760157867</a>
+             <a href="mailto:sales@mahindralogisticsgroup.in">sales@mahindralogisticsgroup.in</a>
+              <a href="mailto:info@mahindralogisticsgroup.in">info@mahindralogisticsgroup.in</a>
+               <a href="mailto:finance@mahindralogisticsgroup.in">finance@mahindralogisticsgroup.in</a>
+               
+            <span class="line"></span>
+                <h5>Office:- shop no.1, near rambagh, tedi baghiya road, agra - 282006</h5>
+                <h5>Branch office:- shop no.2, near Kd it web solution, sector 26, dwarka, bharthal, delhi - 110077</h5>
+
+        </div>
+
+
+    <div class="footer-bottom">
+        © 2024 Copyright mahindralogistics Express. All rights reserved.
+
+</html>

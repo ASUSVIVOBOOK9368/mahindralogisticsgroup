@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ICM</title>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="aboutus.css">
+     <link rel="icon" type="png" href="mahindralogo.jpg">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+     <div class="logo">
+    <img src="mahindralogopng.png" alt="ICM Logo">
+</div>
+
+        <div class="menu-icon" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <span class="close-btn" onclick="closeMenu()">✖</span>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services Offered</a>
+            <a href="contactus.html">Contact Us</a>
+              <a href="trackerhome.html" class="track"><i class="fas fa-location-dot"></i> Track Your Goods</a>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>About Us</h1>
+        <p>Learn more about MAHINDRA and our mission</p>
+    </div>
+
+    <!-- Mission Section -->
+    <div class="section">
+        <h2>Our Mission</h2>
+        <p>At ICM, our mission is to provide exceptional services that combine innovation, quality, and customer
+            satisfaction. We believe in understanding our clients’ unique needs and delivering solutions that are not
+            only effective but also sustainable and future-ready. With a team of highly skilled professionals, we bring
+            creativity, expertise, and dedication to every project we undertake.
+
+            Over the years, we have built a reputation for excellence, reliability, and integrity. Our approach is
+            client-focused, ensuring that every interaction and deliverable aligns with our clients’ goals and
+            expectations. We constantly invest in the latest technologies, tools, and training to stay ahead in the
+            industry and deliver solutions that truly make a difference.
+
+            At ICM, we also value collaboration and transparency. We work closely with our clients, providing clear
+            communication at every stage of the project. This ensures trust, efficiency, and outstanding results.
+            Whether it’s a small project or a large-scale initiative, our commitment remains the same: to provide
+            services that help our clients grow, succeed, and achieve their objectives. Our vision is to be a leader in
+            the industry while maintaining the highest standards of quality and service.</p>
+    </div>
+
+    <!-- Team / Features Section -->
+    <div class="section">
+        <h2>Why Choose Us</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>Expert Team</h3>
+                <p>Our skilled professionals bring experience and creativity to every project.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovative Solutions</h3>
+                <p>We offer modern, innovative solutions that help our clients grow and succeed.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-thumbs-up"></i>
+                <h3>Customer Focused</h3>
+                <p>Your satisfaction is our priority. We tailor our services to your needs.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS for mobile menu -->
+    <script>
+        function openMenu() {
+            document.getElementById('navLinks').style.right = "0";
+        }
+
+        function closeMenu() {
+            document.getElementById('navLinks').style.right = "-250px";
+        }
+    </script>
+
+      <section class="clients-section">
+        <div class="clients-overlay"></div>
+
+        <div class="clients-content">
+            <h2>Our Clients</h2>
+            <span class="line"></span>
+
+            <p>
+                Because of our proven commitment to excellence in rendering our services
+                to customers today we are one of the approved carriers for many
+                Multinational as well as Indian Companies of repute. Some of our valued
+                patrons are as under.
+            </p>
+
+            <div class="clients-logos">
+                <img src="tata.png" alt="Maruti Suzuki">
+                <img src="mahindra.png" alt="Nissan">
+                <img src="honda.png" alt="Renault">
+                <img src="hyundai.png" alt="Hyundai">
+                <img src="toyota.png" alt="Tata">
+                <img src="vw.png" alt="Tata">
+                <img src="nissan.png" alt="Tata">
+            </div>
+        </div>
+    </section>
+
+</body>
+<footer class="footer">
+    <div class="footer-content">
+
+        <div class="logo">
+    <img src="mahindralogopng.png" alt="ICM Logo">
+</div>
+
+        <div class="footer-links">
+            <h3>Know More</h3>
+            <span class="line"></span>
+
+            <a href="aboutus.html">About us</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="services.html">Services</a>
+            <a href="tracking">Track your goods</a>
+        </div>
+
+         <div class="footer-contact">
+            <h3>Reach Us On</h3>
+            <span class="line"></span>
+
+            <a href="tel:+91 8755255826">+91 9760157867</a>
+             <a href="mailto:sales@mahindralogisticsgroup.in">sales@mahindralogisticsgroup.in</a>
+              <a href="mailto:info@mahindralogisticsgroup.in">info@mahindralogisticsgroup.in</a>
+               <a href="mailto:finance@mahindralogisticsgroup.in">finance@mahindralogisticsgroup.in</a>
+               
+            <span class="line"></span>
+                <h5>Office:- shop no.1, near rambagh, tedi baghiya road, agra - 282006</h5>
+                <h5>Branch office:- shop no.2, near Kd it web solution, sector 26, dwarka, bharthal, delhi - 110077</h5>
+
+        </div>
+
+
+    <div class="footer-bottom">
+        © 2024 Copyright mahindralogistics Express. All rights reserved.
+
+</html>

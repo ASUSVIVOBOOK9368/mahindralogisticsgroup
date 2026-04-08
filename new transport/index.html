@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MAHINDRA Logistics GROUP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="icon" type="png" href="mahindralogo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
+
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <header class="navbar" id="navbar">
+
+          <div class="logo">
+    <img src="mahindralogopng.png" alt="ICM Logo">
+</div>
+
+            <div class="menu-icon" onclick="openMenu()"><i class="fas fa-bars"></i></div>
+
+            <nav class="nav-links" id="navLinks">
+                <span class="close-btn" onclick="closeMenu()">✖</span>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="services.html">Service Offered</a> 
+                <a href="contactus.html">Contact Us</a>
+                <a href="trackerhome.html" class="track"><i class="fas fa-location-dot"></i> Track Your Goods</a>
+            </nav>
+        </header>
+        <div class="hero-content fade-up">
+            <span class="tagline">The power of next Gen</span>
+            <h1>The next generation logistics service across India</h1>
+            <a href="#" class="hero-btn">Begin from here</a>
+        </div>
+
+        <!-- Bottom Features -->
+
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <span>🚚</span>
+            <p>Express & On-time Delivery</p>
+        </div>
+        <div class="feature">
+            <span>📍</span>
+            <p>Branches Across India</p>
+        </div>
+        <div class="feature">
+            <span>📦</span>
+            <p>Parcel Services</p>
+        </div>
+        <div class="feature">
+            <span>🛡️</span>
+            <p>Most Secure Logistics</p>
+        </div>
+        <div class="feature">
+            <span>🔍</span>
+            <p>Track Your Goods</p>
+        </div>
+    </section>
+
+    <script>
+        function openMenu() {
+            document.getElementById("navLinks").style.right = "0";
+        }
+        function closeMenu() {
+            document.getElementById("navLinks").style.right = "-100%";
+        }
+
+        /* Sticky Navbar Effect */
+        window.addEventListener("scroll", function () {
+            const navbar = document.getElementById("navbar");
+            navbar.classList.toggle("scrolled", window.scrollY > 50);
+        });
+    </script>
+    <section class="quote-section">
+        <h2>Get a Free Quote</h2>
+        <p>Please fill the form below and our team will contact you</p>
+
+        <form class="quote-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Mobile Number" required>
+
+            <select required>
+                <option value="">Select Service</option>
+                <option>Car Transport</option>
+                <option>Bike Transport</option>
+                <option>Household Shifting</option>
+                <option>Goods Transport</option>
+            </select>
+
+            <input type="text" placeholder="Pickup Location" required>
+            <input type="text" placeholder="Drop Location" required>
+
+            <button type="submit">Submit Quote</button>
+        </form>
+    </section>
+    <section class="home-services">
+        <div class="map-overlay"></div>
+
+        <h2>MAHINDRA LOGISTICS Express</h2>
+        <h4>The beginning of new Era</h4>
+
+        <p class="services-text">
+            Utmost reliability, safe, damage free and efficient transportation of
+            products to the destined place at a minimum cost to the entire
+            satisfaction of the customer.
+        </p>
+        <div class="services-list">
+
+            <div class="service-item">
+                <img src="car.jpg" alt="Car Carriers">
+                <p>CAR CARRIERS</p>
+            </div>
+
+            <div class="service-item">
+                <img src="bike.jpg" alt="FTL">
+                <p>BIKE TRANSPORT</p>
+            </div>
+
+            <div class="service-item warehouseimg">
+                <img src="warehouse.jpg" alt="Parcel Services">
+                <p>WAREHOUSE SERVICES</p>
+            </div>
+
+            <div class="service-item">
+                <img src="household.jpg" alt="Transport">
+                <p>GOODS TRANSPORT</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="clients-section">
+        <div class="clients-overlay"></div>
+
+        <div class="clients-content">
+            <h2>Our Clients</h2>
+            <span class="line"></span>
+
+            <p>
+                Because of our proven commitment to excellence in rendering our services
+                to customers today we are one of the approved carriers for many
+                Multinational as well as Indian Companies of repute. Some of our valued
+                patrons are as under.
+            </p>
+
+            <div class="clients-logos">
+                <img src="tata.png" alt="Maruti Suzuki">
+                <img src="mahindra.png" alt="Nissan">
+                <img src="honda.png" alt="Renault">
+                <img src="hyundai.png" alt="Hyundai">
+                <img src="toyota.png" alt="Tata">
+                <img src="vw.png" alt="Tata">
+                <img src="nissan.png" alt="Tata">
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+<footer class="footer">
+    <div class="footer-content">
+
+     <div class="logo">
+    <img src="mahindralogopng.png" alt="ICM Logo">
+</div>
+
+        <div class="footer-links">
+            <h3>Know More</h3>
+            <span class="line"></span>
+
+            <a href="aboutus.html">About us</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="services.html">Services</a>
+            <a href="tracking.html">Track your goods</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Reach Us On</h3>
+            <span class="line"></span>
+
+            <a href="tel:+91 8755255826">+91 9760157867</a>
+             <a href="mailto:sales@mahindralogisticsgroup.in">sales@mahindralogisticsgroup.in</a>
+              <a href="mailto:info@mahindralogisticsgroup.in">info@mahindralogisticsgroup.in</a>
+               <a href="mailto:finance@mahindralogisticsgroup.in">finance@mahindralogisticsgroup.in</a>
+               
+            <span class="line"></span>
+                <h5>Office:- shop no.1, near rambagh, tedi baghiya road, agra - 282006</h5>
+                <h5>Branch office:- shop no.2, near Kd it web solution, sector 26, dwarka, bharthal, delhi - 110077</h5>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2024 Copyright mahindralogistics Express. All rights reserved.
+
+
+</html>
